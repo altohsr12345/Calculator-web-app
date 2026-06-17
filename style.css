@@ -16,6 +16,11 @@ body{
     font-size: 100px;
 }
 
+.numpad:hover{
+    background-color:rgb(235, 71, 46);
+    border: 5px, solid, rgb(237, 237, 237)
+}
+
 #CalcBox{
     background-color: rgb(30, 30, 30);
     height: 620x;  
@@ -34,10 +39,12 @@ body{
 #ResultBox{
     color:aliceblue;
     font-family:Helvetica, Arial;
+    font-size: 50px;
+    text-align: center;
     margin-left:auto;
     margin-right:auto;
-    background-color: red;
-    height: 300px;
+    background-color: rgb(30, 30, 30);
+    height: 250px;
     width: 700px;
     padding: 30px;
     border-radius:45px;
