@@ -1,0 +1,44 @@
+#result{
+    font-family: Helvetica;
+}
+
+body{
+    background-color:rgb(15, 15, 15);
+}
+
+.numpad{
+    border-radius: 1000px;
+    background-color: rgb(247, 147, 17);
+    font-family: Varela Round, Arial;
+    height: 150px;
+    width: 150px;
+    border: 5px, solid, rgb(21, 21, 21);
+    font-size: 100px;
+}
+
+#CalcBox{
+    background-color: rgb(30, 30, 30);
+    height: 620x;  
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%; 
+    padding: 30px;
+    border-radius:45px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px 15px;
+}
+
+#ResultBox{
+    color:aliceblue;
+    font-family:Helvetica, Arial;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: red;
+    height: 300px;
+    width: 700px;
+    padding: 30px;
+    border-radius:45px;
+}
