@@ -6,7 +6,7 @@ body{
     background-color:rgb(15, 15, 15);
 }
 
-.numpad{
+.digit{
     border-radius: 1000px;
     background-color: rgb(247, 147, 17);
     font-family: Varela Round, Arial;
@@ -16,7 +16,51 @@ body{
     font-size: 100px;
 }
 
-.numpad:hover{
+.digit:hover{
+    background-color:rgb(235, 71, 46);
+    border: 5px, solid, rgb(237, 237, 237)
+}
+
+.oper{
+    border-radius: 1000px;
+    background-color: rgb(247, 147, 17);
+    font-family: Varela Round, Arial;
+    height: 150px;
+    width: 150px;
+    border: 5px, solid, rgb(21, 21, 21);
+    font-size: 100px;
+}
+
+.oper:hover{
+    background-color:rgb(235, 71, 46);
+    border: 5px, solid, rgb(237, 237, 237)
+}
+.equal{
+    border-radius: 1000px;
+    background-color: rgb(247, 147, 17);
+    font-family: Varela Round, Arial;
+    height: 150px;
+    width: 150px;
+    border: 5px, solid, rgb(21, 21, 21);
+    font-size: 100px;
+}
+
+.equal:hover{
+    background-color:rgb(235, 71, 46);
+    border: 5px, solid, rgb(237, 237, 237)
+}
+
+.clear{
+    border-radius: 1000px;
+    background-color: rgb(247, 147, 17);
+    font-family: Varela Round, Arial;
+    height: 150px;
+    width: 150px;
+    border: 5px, solid, rgb(21, 21, 21);
+    font-size: 100px;
+}
+
+.clear:hover{
     background-color:rgb(235, 71, 46);
     border: 5px, solid, rgb(237, 237, 237)
 }
